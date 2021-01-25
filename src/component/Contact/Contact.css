@@ -78,3 +78,8 @@ textarea {
   font-weight: 400;
   color: #feb32a;
 }
+
+.text-success {
+  text-align: center;
+  margin-top: 8px;
+}
