@@ -15,7 +15,7 @@ const About = () => {
         <p>
           Hello 👋 this is Pankaj Sharma from India a guy who love design &
           develop web apps and music. I am currently working at{" "}
-          <a href="https://proprofs.com" target="_blank">
+          <a href="https://proprofs.com" rel="noreferrer" target="_blank">
             ProProfs
           </a>
           . I design and developed fun things which lives on internet or between
