@@ -18,17 +18,6 @@ const Contact = () => {
         Have a question or want to work together ?
       </span>
 
-      <form
-        name="contact"
-        netlify
-        netlify-honeypot="bot-field"
-        action="/"
-        hidden
-      >
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message"></textarea>
-      </form>
       {success ? (
         <p className="text-success"> Thanks for your message! </p>
       ) : (
@@ -37,9 +26,10 @@ const Contact = () => {
 
       <form
         name="contact"
-        method="post"
+        method="POST"
         data-netlify="true"
         className="contact-form"
+        action="/?success=true"
       >
         <input type="hidden" name="form-name" value="contact" />
         <input placeholder="Name" type="text" name="name" required />
