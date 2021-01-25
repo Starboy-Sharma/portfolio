@@ -1,0 +1,42 @@
+.skills {
+  padding: 2rem 2rem;
+  color: #feb32a;
+  background-color: #111111;
+  width: 100%;
+  border: 5px dotted;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.skills-list li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.md-chip {
+  display: inline-block;
+  background: #1e1e1e;
+  padding: 10px 20px;
+  border-radius: 32px;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+.md-chip.md-chip-hover:hover {
+  background: #feb32a;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-list li {
+    margin: 0.6rem;
+  }
+}

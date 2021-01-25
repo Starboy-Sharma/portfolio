@@ -1,0 +1,73 @@
+main {
+  background-color: #1e1e1e;
+  color: #aaaaab;
+  padding: 2rem 1rem;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.img-container {
+  flex: 40%;
+}
+
+.img-container img {
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+  display: block;
+}
+
+.about-me {
+  flex: 60%;
+}
+
+.about-me h3 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-me .button {
+  background: #ffc760; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc760,
+    #feb32a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc760,
+    #feb32a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-decoration: none;
+  display: inline-block;
+  color: #1e1e1e;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  transition: 0.5s ease-in-out;
+}
+
+.about-me .button:hover {
+  background-position: left;
+  background: #feb32a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  main {
+    height: auto;
+    display: block;
+  }
+}

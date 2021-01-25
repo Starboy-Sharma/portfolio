@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+### Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- <Welcome />
+- <About />
+- <RecentWork />
+- <Contact />
 
-## Available Scripts
+### Inspiration
 
-In the project directory, you can run:
+https://www.behance.net/gallery/100377445/Personal-Website-for-UXUI-Designer-%28Portfolio%29?tracking_source=search_projects_recommended%7Cportfolio%20website
 
-### `npm start`
+https://pierre.io/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Bibliography
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Font Awesome
+Dribble
 
-### `npm test`
+### My Skills
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+HTML, CSS, JS, PHP, Node, Express, Socket IO, jQuery, MySql, Codeigniter, React, AngularJS
 
-### `npm run build`
+### Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Collaborate - Collaborate is a real time chat application. Collaborate is a web application which is mixture of both Slack and Quora. I design & developed various modules of collaborate and implement logic. Create APIs for collaborate mobile application and real-time sync mobile app and web. I also maintain UI/UX changes.
+   Link: https://collaborate.proprofs.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technology: Node, Express, Socket IO, AngularJS, jQuery, Materialize, Codeigniter, Mysql
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Audidelhisouth - Audidelhisouth website is created with Codeigniter. My role in this web is to manage user interface and backend updates. Validate data, developed modules and content updates.
+   Link: https://www.audidelhisouth.in/
 
-### `npm run eject`
+Technology: Codeigniter, Mysql, jQuery, JS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Dark Todo App
+   Link: https://dark-todo.netlify.app/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. What Weather (PWA)
+   Link: https://what-weather.netlify.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. JS Snippets
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+6. Insta post Like & Comment
 
-## Learn More
+7. Login Form animation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+8. List Animation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+9. Card View
 
-### Code Splitting
+10. Coin Spinner
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+11. Dribble Design (Only for Mobile)
 
-### Analyzing the Bundle Size
+12. Search in JS
+    Link: https://codepen.io/starboy-sharma/pen/MWwQyzQ
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+13. My Portfolio
 
-### Making a Progressive Web App
+### Social Profile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/starboy-sharma
+LinkedIn: https://www.linkedin.com/in/pankaj-sharma-a0b783131/
+Codepen: https://codepen.io/starboy-sharma/
+Twitter: https://twitter.com/Pankaj_sharma43
