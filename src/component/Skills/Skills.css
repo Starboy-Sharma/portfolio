@@ -36,6 +36,10 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .skills {
+    padding: 2rem 1rem;
+  }
+
   .skills-list li {
     margin: 0.6rem;
   }

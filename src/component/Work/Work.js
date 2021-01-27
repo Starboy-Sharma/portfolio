@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Work.css";
 
 const Work = () => {
+  const [width, setWidth] = useState("200px");
+  const [height, setHeight] = useState("150px");
+
+  // Before component did mount
+  useEffect(() => {
+    if (window.innerWidth <= 768) {
+      setWidth("300px");
+      setHeight("200px");
+    }
+  }, []);
+
   return (
     <section id="work" className="work">
       <h4>Portfolio</h4>
@@ -19,8 +30,8 @@ const Work = () => {
               style={{
                 backgroundImage: 'url("images/collaborate.jpg")',
                 backgroundRepeat: "no-repeat",
-                width: "200px",
-                height: "150px",
+                width: width,
+                height: height,
                 backgroundSize: "cover",
                 border: "3px solid #ddd",
                 borderRadius: "4px",
@@ -64,8 +75,8 @@ const Work = () => {
               style={{
                 backgroundImage: 'url("images/audidelhisouth.jpg")',
                 backgroundRepeat: "no-repeat",
-                width: "200px",
-                height: "150px",
+                width: width,
+                height: height,
                 backgroundSize: "cover",
                 border: "3px solid #ddd",
                 borderRadius: "4px",
@@ -107,8 +118,8 @@ const Work = () => {
               style={{
                 backgroundImage: 'url("images/dark-todo.jpg")',
                 backgroundRepeat: "no-repeat",
-                width: "200px",
-                height: "150px",
+                width: width,
+                height: height,
                 backgroundSize: "cover",
                 border: "3px solid #ddd",
                 borderRadius: "4px",
@@ -160,8 +171,8 @@ const Work = () => {
               style={{
                 backgroundImage: 'url("images/what-weather.jpg")',
                 backgroundRepeat: "no-repeat",
-                width: "200px",
-                height: "150px",
+                width: width,
+                height: height,
                 backgroundSize: "cover",
                 border: "3px solid #ddd",
                 borderRadius: "4px",

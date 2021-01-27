@@ -70,4 +70,10 @@ main {
     height: auto;
     display: block;
   }
+
+  .about-me {
+    width: 88%;
+    text-align: justify;
+    margin: 0 auto;
+  }
 }

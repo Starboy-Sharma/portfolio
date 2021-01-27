@@ -72,3 +72,33 @@
 .more-work a {
   margin-right: 0.5rem;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .work h2 {
+    margin-left: 1.3rem;
+  }
+
+  .work {
+    padding: 2rem 1rem;
+  }
+
+  .project-container {
+    display: block;
+    padding: 0px;
+  }
+
+  .project-image {
+    margin-bottom: 8px;
+  }
+
+  .project-description {
+    text-align: justify;
+    margin-left: 15px;
+  }
+
+  .project-description p {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+  }
+}
