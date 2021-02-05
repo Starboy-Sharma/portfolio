@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <input type="hidden" name="form-name" value="contact" />
         <input placeholder="Name" type="text" name="name" required />
-        <input placeholder="Email" type="email" name="name" required />
+        <input placeholder="Email" type="email" name="email" required />
         <textarea name="message" placeholder="Message" required></textarea>
         <button type="submit">Send</button>
       </form>
