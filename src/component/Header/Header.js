@@ -13,7 +13,9 @@ const Header = () => {
         <a href="#work"> Work </a>
       </div>
       <div className="arrow-down">
-        <i className="fa fa-angle-down"></i>
+        <a href="#about">
+          <i className="fa fa-angle-down"></i>
+        </a>
       </div>
     </div>
   );
