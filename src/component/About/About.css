@@ -37,7 +37,7 @@ main {
 }
 
 .about-me .button {
-  display: none;
+  display: none !important;
   background: #ffc760; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
