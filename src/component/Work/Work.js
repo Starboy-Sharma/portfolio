@@ -45,10 +45,10 @@ const Work = () => {
           <p>
             Collaborate is a real time chat application build with Node and
             Socket.IO. Collaborate is a web application which is a mixture of
-            both Slack and Quora. I design & developed various modules of
+             both Slack and Quora.{/* I design & developed various modules of
             collaborate and implement logic. Create APIs for collaborate mobile
             application and real-time sync mobile app and web. I also maintain
-            UI/UX changes.
+            UI/UX changes. */}
             <p>
               <a
                 href="https://collaborate.proprofs.com/"
@@ -184,11 +184,11 @@ const Work = () => {
           <h3> What's Weather </h3>
 
           <p>
-            A React weather application used geolocation to show weather report
+            A React weather PWA application used geolocation to show weather report
             in C or F. This application has dynamic background change according
             to the time. I am also using animated react-skycons weather icons.
-            You can also install this web application in your mobile app as well
-            as it is a PWA. Dynamic background change only for responsive view.
+            {/* You can also install this web application in your mobile app as well
+            as it is a PWA. Dynamic background change only for responsive view. */}
             <p>
               <a
                 href="https://what-weather.netlify.app/"

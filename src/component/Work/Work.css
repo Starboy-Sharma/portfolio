@@ -21,10 +21,15 @@
 }
 
 .project-container {
-  width: 100%;
+  /* width: 100%; */
+  width: 70%;
+  border: 1.5px solid #fff;
   padding: 10px 20px;
   display: flex;
   flex-wrap: nowrap;
+  margin: 0px auto;
+  margin-bottom: 15px;
+  border-radius: 7px;
 }
 
 .project-image {
@@ -86,15 +91,18 @@
   .project-container {
     display: block;
     padding: 0px;
+    width:inherit;
   }
 
   .project-image {
     margin-bottom: 8px;
+    display: none;
   }
 
   .project-description {
     text-align: justify;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    padding: 0px 10px;
   }
 
   .project-description p {

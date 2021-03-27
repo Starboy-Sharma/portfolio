@@ -13,12 +13,17 @@
   margin-bottom: 8px;
   color: #fff;
   margin-left: 1rem;
+  text-align: center;
+}
+
+.skills-list {
+  text-align: center;
 }
 
 .skills-list li {
   list-style-type: none;
   display: inline-block;
-  margin: 1rem;
+  margin: 0.6rem;
 }
 
 .md-chip {
@@ -41,6 +46,7 @@
   }
 
   .skills-list li {
-    margin: 0.6rem;
+    /* margin: 0.6rem; */
+    margin: 0.3rem;
   }
 }
