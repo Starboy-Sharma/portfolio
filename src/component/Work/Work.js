@@ -45,7 +45,8 @@ const Work = () => {
           <p>
             Collaborate is a real time chat application build with Node and
             Socket.IO. Collaborate is a web application which is a mixture of
-             both Slack and Quora.{/* I design & developed various modules of
+            both Slack and Quora.
+            {/* I design & developed various modules of
             collaborate and implement logic. Create APIs for collaborate mobile
             application and real-time sync mobile app and web. I also maintain
             UI/UX changes. */}
@@ -184,9 +185,10 @@ const Work = () => {
           <h3> What's Weather </h3>
 
           <p>
-            A React weather PWA application used geolocation to show weather report
-            in C or F. This application has dynamic background change according
-            to the time. I am also using animated react-skycons weather icons.
+            A React weather PWA application used geolocation to show weather
+            report in C or F. This application has dynamic background change
+            according to the time. I am also using animated react-skycons
+            weather icons.
             {/* You can also install this web application in your mobile app as well
             as it is a PWA. Dynamic background change only for responsive view. */}
             <p>
@@ -241,6 +243,14 @@ const Work = () => {
           rel="noreferrer"
         >
           Card View |
+        </a>
+        <a
+          href="https://captain-america-avenger.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+          title="Support only in Desktop"
+        >
+          Captain America |
         </a>
         <a
           href="https://codepen.io/starboy-sharma/pen/QozjaY"
