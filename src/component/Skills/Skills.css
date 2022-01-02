@@ -1,9 +1,10 @@
 .skills {
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
+  margin-top: 10px;
   color: #feb32a;
   background-color: #111111;
   width: 100%;
-  border: 5px dotted;
+  /* border: 5px dotted; */
 }
 
 .skills h2 {
@@ -31,7 +32,7 @@
   background: #1e1e1e;
   padding: 10px 20px;
   border-radius: 32px;
-  font-size: 13px;
+  font-size: 18px;
   transition: all 0.3s;
 }
 .md-chip.md-chip-hover:hover {
