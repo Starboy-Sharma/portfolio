@@ -14,7 +14,7 @@ const Skills = () => {
       setSkillText('My Skills');
     }
 
-  })
+  }, [skillText]);
 
   return (
     <section id="skills" className="skills">
