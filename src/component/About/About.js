@@ -7,20 +7,23 @@ const About = () => {
       {/* <h1> About Me </h1> */}
 
       <div className="img-container col">
-        <img src="images/about.gif" alt="coding" />
+        <img src="images/blogging.svg" alt="coding" />
       </div>
 
       <div className="about-me col">
         <h3>About Me</h3>
         <p>
-          Hello 👋 this is Pankaj Sharma from India a guy who love design &
+          {/* Hello, 👋 this is Pankaj Sharma from India a guy who love design &
           develop web apps and music. I am currently working at{" "}
           <a href="https://proprofs.com" rel="noreferrer" target="_blank">
             ProProfs
           </a>
           . I design and developed fun things which lives on internet or between
           you and me. I love to build things which found people useful. I love
-          to explore technologies.
+          to explore technologies. */}
+          Hello, 👋 this is Pankaj Sharma from India a guy who loves design & developing web apps and music. I am currently working at <a href="https://proprofs.com" rel="noreferrer" target="_blank">
+            ProProfs
+          </a>. I design and develop fun things which live on the internet or between you and me. I love to build things that found people useful. I love to explore technologies.
         </p>
 
         <p>
