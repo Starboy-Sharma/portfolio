@@ -1,10 +1,3 @@
-### Components
-
-- <Welcome />
-- <About />
-- <RecentWork />
-- <Contact />
-
 ### Inspiration
 
 https://www.behance.net/gallery/100377445/Personal-Website-for-UXUI-Designer-%28Portfolio%29?tracking_source=search_projects_recommended%7Cportfolio%20website

@@ -9,12 +9,12 @@
 }
 
 .header h1 {
-  font-weight: bold;
+  font-weight: 400;
   color: #feb32a;
-  font-size: 3.5rem;
-  animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    animated-cursor 600ms steps(29, end) infinite;
-  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  font-size: 6.5rem;
+  /* animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite; */
+  /* border-right: solid 3px rgba(0, 255, 0, 0.75); */
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
@@ -22,7 +22,7 @@
 }
 
 .header h3 {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   color: #ffc760;
   font-weight: 600;
   margin: 8px 0px 0px;
@@ -31,7 +31,7 @@
 .header .welcome-msg span {
   color: #aaaaab;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic;
   margin-top: 8px;
   display: block;
@@ -40,6 +40,7 @@
 .header a {
   color: #ffc760;
   text-decoration: none;
+  font-size: 33px;
 }
 
 /* text animation */
@@ -66,8 +67,8 @@
 
 /* Scroll bottom button */
 .header .arrow-down {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   border: 1px solid wheat;
   position: absolute;
   bottom: 15px;
@@ -88,11 +89,15 @@
 /* nav section work */
 .header .nav {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 30px;
+  right: 35px;
   font-weight: 600;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.header .nav a {
+  font-size: 1.6rem;
 }
 
 .header .nav span:hover {
