@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Skills.css";
 
 const Skills = () => {
+
+  let [skillText, setSkillText] = useState('✨ My Skills ✨');
+
+  useEffect(() => {
+    
+    var isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+
+    if (isMobileDevice) { 
+      setSkillText('My Skills');
+    }
+
+  })
+
   return (
     <section id="skills" className="skills">
-      <h2>✨ My Skills ✨</h2>
+      <h2>{skillText}</h2>
 
       <ul className="skills-list">
         <li className="md-chip md-chip-hover"> Node JS </li>
