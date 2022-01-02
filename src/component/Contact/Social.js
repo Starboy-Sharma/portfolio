@@ -7,6 +7,7 @@ const Social = () => {
     <footer className="social">
       <SocialIcon
         url="https://www.linkedin.com/in/pankaj-sharma-a0b783131/"
+        target="_blank"
         label="Our portfolio"
         network="linkedin"
         style={{ marginRight: "20px" }}
@@ -14,20 +15,23 @@ const Social = () => {
 
       <SocialIcon
         url="https://github.com/starboy-sharma"
+        target="_blank"
         label="Our portfolio"
         network="github"
         style={{ marginRight: "20px" }}
       />
 
       <SocialIcon
-        url="https://codepen.io/starboy-sharma/"
+        url="https://twitter.com/Pankaj_sharma43"
+        target="_blank"
         label="Our portfolio"
         network="twitter"
         style={{ marginRight: "20px" }}
       />
 
       <SocialIcon
-        url="https://twitter.com/Pankaj_sharma43"
+        url="https://codepen.io/starboy-sharma/"
+        target="_blank"
         label="Our portfolio"
         network="codepen"
         style={{ marginRight: "20px" }}
