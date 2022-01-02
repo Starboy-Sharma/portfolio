@@ -185,7 +185,7 @@ const Work = () => {
           <h3> What's Weather </h3>
 
           <p>
-            A React weather PWA application used geolocation to show weather
+            A React weather <b>PWA</b> application used geolocation to show weather
             report in C or F. This application has dynamic background change
             according to the time. I am also using animated react-skycons
             weather icons.
