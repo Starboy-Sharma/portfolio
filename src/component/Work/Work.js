@@ -66,15 +66,11 @@ const Work = () => {
 
       <div className="project-container">
         <div className="project-image">
-          <a
-            href="https://www.audidelhisouth.in/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://astrologybaba.com/" target="_blank" rel="noreferrer">
             <div
               className="image"
               style={{
-                backgroundImage: 'url("images/audidelhisouth.jpg")',
+                backgroundImage: 'url("images/astro-baba.png")',
                 backgroundRepeat: "no-repeat",
                 width: width,
                 height: height,
@@ -86,18 +82,60 @@ const Work = () => {
           </a>
         </div>
         <div className="project-description">
-          <h3> Audidelhisouth </h3>
+          <h3> Astro Baba </h3>
 
           <p>
-            Audidelhisouth website is created with Codeigniter PHP framework and
-            design with bootstrap. My role in this web is to manage user
-            interface and backend updates. Validate data, developed modules and
-            content updates.
+            Astro Baba is an application where the users can connect with online
+            Astrologers. Astro Baba has more than 10k downloads. My role is to
+            write reusable code and build various modules of Astro Baba (Live
+            Streaming, Coin Management, Push Notifications). Astro Baba is built
+            on microservice architecture of NodeJS.
             <p>
               <a
-                href="https://www.audidelhisouth.in/"
+                href="https://astrologybaba.com/"
                 target="_blank"
                 rel="noreferrer"
+              >
+                {" "}
+                Live preview{" "}
+              </a>
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="project-container">
+        <div className="project-image">
+          <a href="#" target="_blank"title="Project is under development."  rel="noreferrer">
+            <div
+              className="image"
+              style={{
+                backgroundImage: 'url("images/milli.png")',
+                backgroundRepeat: "no-repeat",
+                width: width,
+                height: height,
+                backgroundSize: "cover",
+                border: "3px solid #ddd",
+                borderRadius: "4px",
+              }}
+            ></div>
+          </a>
+        </div>
+        <div className="project-description">
+          <h3> Milli </h3>
+
+          <p>
+            Milli is an event organization app currently under development. Where you can register your
+            event and sell tickets. I have developed the project from scratch
+            and designed the architecture of the project. Stories, Posts, Chat,
+            Groups, Geolocation, Suggestion based on common interests. Third
+            party payment gateway and Market place.
+            <p>
+              <a
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                title="Project is under development."
               >
                 {" "}
                 Live preview{" "}
@@ -185,9 +223,9 @@ const Work = () => {
           <h3> What's Weather </h3>
 
           <p>
-            A React weather <b>PWA</b> application used geolocation to show weather
-            report in C or F. This application has dynamic background change
-            according to the time. I am also using animated react-skycons
+            A React weather <b>PWA</b> application used geolocation to show
+            weather report in C or F. This application has dynamic background
+            change according to the time. I am also using animated react-skycons
             weather icons.
             {/* You can also install this web application in your mobile app as well
             as it is a PWA. Dynamic background change only for responsive view. */}
