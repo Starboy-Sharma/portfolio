@@ -106,7 +106,7 @@ const Work = () => {
 
       <div className="project-container">
         <div className="project-image">
-          <a href="#" target="_blank"title="Project is under development."  rel="noreferrer">
+          <a href="https://pankaj-sharma-portfolio.netlify.app/" target="_blank"title="Project is under development."  rel="noreferrer">
             <div
               className="image"
               style={{
@@ -132,7 +132,7 @@ const Work = () => {
             party payment gateway and Market place.
             <p>
               <a
-                href="#"
+                href="https://pankaj-sharma-portfolio.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 title="Project is under development."
