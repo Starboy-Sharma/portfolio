@@ -25,7 +25,7 @@ const About = () => {
         </p>
 
         <p>
-          <a href="https://honzaap.github.io/GithubCity/?name=starboy-sharma&year=2022" target="_blank">
+          <a href="https://honzaap.github.io/GithubCity/?name=starboy-sharma&year=2022" rel="noreferrer" target="_blank">
             My Github Contributions in 3d view 
           </a>
         </p>
