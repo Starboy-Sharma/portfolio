@@ -13,22 +13,21 @@ const About = () => {
       <div className="about-me col">
         <h3>About Me</h3>
         <p>
-          {/* Hello, 👋 this is Pankaj Sharma from India a guy who love design &
-          develop web apps and music. I am currently working at{" "}
-          <a href="https://proprofs.com" rel="noreferrer" target="_blank">
-            ProProfs
-          </a>
-          . I design and developed fun things which lives on internet or between
-          you and me. I love to build things which found people useful. I love
-          to explore technologies. */}
-          Hello, 👋 My name is Pankaj Sharma. I am a Software Developer based in Delhi, India. I am currently working at <a href="https://www.appventurez.com/" rel="noreferrer" target="_blank">
-            Appventurez
+         
+          Hello, 👋 My name is Pankaj Sharma. I am a Software Developer based in Delhi, India. I am currently working at <a href="https://www.emids.com/" rel="noreferrer" target="_blank">
+            Emids
           </a>.I’m specializing in building (and occasionally designing) exceptional digital experiences. Currently, I am focused on React and TypeScript. I enjoy creating things that live on the internet.
         </p>
 
         <p>
           I like developing interactive things with <b> Code. </b> I'm always up
           for a chat.
+        </p>
+
+        <p>
+          <a href="https://honzaap.github.io/GithubCity/?name=starboy-sharma&year=2022" target="_blank">
+            My Github Contributions in 3d view 
+          </a>
         </p>
 
         <a href="#work" className="button">

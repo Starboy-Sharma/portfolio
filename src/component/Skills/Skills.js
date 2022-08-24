@@ -22,17 +22,17 @@ const Skills = () => {
 
       <ul className="skills-list">
         <li className="md-chip md-chip-hover"> Node JS </li>
-        <li className="md-chip md-chip-hover"> Javascript </li>
         <li className="md-chip md-chip-hover"> Express </li>
+        <li className="md-chip md-chip-hover"> Microservices </li>
         <li className="md-chip md-chip-hover"> React </li>
         <li className="md-chip md-chip-hover"> MongoDB </li>
         <li className="md-chip md-chip-hover"> API </li>
-        <li className="md-chip md-chip-hover"> SQL </li>
+        <li className="md-chip md-chip-hover"> Postgres SQL </li>
         <li className="md-chip md-chip-hover"> Socket.IO </li>
-        <li className="md-chip md-chip-hover"> HTML </li>
-        <li className="md-chip md-chip-hover"> CSS </li>
+        <li className="md-chip md-chip-hover"> Javascript </li>
+        <li className="md-chip md-chip-hover"> Seequelize </li>
+        <li className="md-chip md-chip-hover"> Mongoose </li>
         <li className="md-chip md-chip-hover"> Git </li>
-        <li className="md-chip md-chip-hover"> Codeigniter </li>
         <li className="md-chip md-chip-hover"> jQuery </li>
       </ul>
     </section>
