@@ -11,7 +11,7 @@ Dribble
 
 ### My Skills
 
-HTML, CSS, JS, PHP, Node, Express, Socket IO, jQuery, MySql, Codeigniter, React, AngularJS
+HTML, CSS, JS, Node, Express, Socket IO, jQuery, MySql, React, AngularJS, MongoDB
 
 ### Projects
 
