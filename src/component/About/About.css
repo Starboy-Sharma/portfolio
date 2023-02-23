@@ -15,7 +15,7 @@ main {
 }
 
 .img-container img {
-  width: 500px;
+  width: 450px;
   /* height: 300px; */
   margin: 0px auto;
   display: block;
@@ -23,6 +23,9 @@ main {
 
 .about-me {
   flex: 60%;
+
+  position: relative;
+  left: -50px;
 }
 
 .about-me h3 {
@@ -33,8 +36,12 @@ main {
   text-transform: uppercase;
 }
 
+.about-me-text-container {
+  min-width: 230px;
+}
+
 .about-me p {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.8;
   margin-bottom: 10px;
 }
@@ -79,6 +86,8 @@ main {
     width: 88%;
     text-align: justify;
     margin: 0 auto;
+
+    position: unset;
   }
 
   .img-container img {
@@ -87,5 +96,11 @@ main {
 
   main {
     width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-me {
+    position: unset;
   }
 }
