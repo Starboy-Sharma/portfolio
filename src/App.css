@@ -19,3 +19,22 @@ a {
   color: skyblue;
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #322e2e;
+  border-radius: 7px;
+  background: #160101;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ffc760; 
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b58f4a; 
+}
