@@ -8,7 +8,7 @@ import Social from "./component/Contact/Social";
 
 function App() {
   return (
-    <div>
+    <div className="scroller">
       <Header />
       <About />
       <Skills />

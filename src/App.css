@@ -21,7 +21,7 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -37,4 +37,11 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #b58f4a; 
+}
+
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-color: #ffc760 #160101;
+  scrollbar-width: auto;
 }
