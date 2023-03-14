@@ -12,11 +12,16 @@ const About = () => {
 
       <div className="about-me col">
         <h3>About Me</h3>
+        <div className="about-me-text-container">
         <p>
-         
-          Hello, 👋 My name is Pankaj Sharma. I am a Software Developer based in Delhi, India. I am currently working at <a href="https://www.emids.com/" rel="noreferrer" target="_blank">
+          Hello, 👋 My name is Pankaj Sharma. I am a Software Developer based in
+          Delhi, India. I am currently working at{" "}
+          <a href="https://www.emids.com/" rel="noreferrer" target="_blank">
             Emids
-          </a>.I’m specializing in building (and occasionally designing) exceptional digital experiences. Currently, I am focused on React and TypeScript. I enjoy creating things that live on the internet.
+          </a>
+          .I’m specializing in building (and occasionally designing) exceptional
+          digital experiences. Currently, I am focused on React and TypeScript.
+          I enjoy creating things that live on the internet.
         </p>
 
         <p>
@@ -25,10 +30,16 @@ const About = () => {
         </p>
 
         <p>
-          <a href="https://honzaap.github.io/GithubCity/?name=starboy-sharma&year=2022" rel="noreferrer" target="_blank">
-            My Github Contributions in 3d view 
+          <a
+            href="https://honzaap.github.io/GithubCity/?name=starboy-sharma&year=2022"
+            rel="noreferrer"
+            target="_blank"
+          >
+            My Github Contributions in 3d view
           </a>
         </p>
+        </div>
+
 
         <a href="#work" className="button">
           {" "}
