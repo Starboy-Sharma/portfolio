@@ -4,6 +4,7 @@ main {
   /* padding: 2rem 1rem; */
   display: flex;
   width: 70%;
+  min-width: 1100px;
   margin: 0 auto;
   height: 90vh;
   align-items: center;
@@ -76,10 +77,12 @@ main {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   main {
     height: auto;
     display: block;
+    width: 100%;
+    min-width: 100%;
   }
 
   .about-me {
@@ -94,13 +97,14 @@ main {
     width: 350px;
   }
 
-  main {
-    width: 100%;
-  }
 }
 
 @media (min-width: 992px) {
   .about-me {
     position: unset;
+  }
+
+  .scroller {
+    overflow-x: hidden;
   }
 }

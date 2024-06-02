@@ -28,6 +28,46 @@ const Work = () => {
             <div
               className="image"
               style={{
+                backgroundImage: 'url("images/pulse.png")',
+                backgroundRepeat: "no-repeat",
+                width: width,
+                height: height,
+                backgroundSize: "cover",
+                border: "3px solid #ddd",
+                borderRadius: "4px",
+              }}
+            ></div>
+          </a>
+        </div>
+        <div className="project-description">
+          <h3> PULSE </h3>
+
+          <p>
+          A cloud-based collaboration tool that reimagines real-time organization, rendering, and sharing of production media from anywhere in the world.
+            <p>
+              <a
+                href="https://pulse.streamlandmedia.com/landing/#!/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Live preview{" "}
+              </a>
+            </p>
+          </p>
+        </div>
+      </div>
+
+      <div className="project-container">
+        <div className="project-image">
+          <a
+            href="https://collaborate.proprofs.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="image"
+              style={{
                 backgroundImage: 'url("images/collaborate.jpg")',
                 backgroundRepeat: "no-repeat",
                 width: width,
