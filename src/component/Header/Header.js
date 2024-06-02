@@ -7,7 +7,7 @@ const Header = () => {
       <div className="welcome-msg">
         <h1> Hello World! 👋</h1>
         <h3> I'm Pankaj Sharma </h3>
-        <span> Full Stack Developer </span>
+        <span> Sr. Software Engineer </span>
       </div>
       <div className="nav">
         <a href="#work" title="Work"> Work 💼</a>
