@@ -19,8 +19,8 @@ const About = () => {
           <a href="https://www.emids.com/" rel="noreferrer" target="_blank">
             Emids
           </a>
-          .I’m specializing in building (and occasionally designing) exceptional
-          digital experiences. Currently, I am focused on React and TypeScript.
+          . I’m specializing in building (and occasionally designing) exceptional
+          digital experiences. Currently, I am focused on building UI library using web components in microfrontend.
           I enjoy creating things that live on the internet.
         </p>
 

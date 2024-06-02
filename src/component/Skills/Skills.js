@@ -34,6 +34,9 @@ const Skills = () => {
         <li className="md-chip md-chip-hover"> Mongoose </li>
         <li className="md-chip md-chip-hover"> Git </li>
         <li className="md-chip md-chip-hover"> jQuery </li>
+        <li className="md-chip md-chip-hover"> Grunt </li>
+        <li className="md-chip md-chip-hover"> Microfrontend </li>
+        <li className="md-chip md-chip-hover"> Design System </li>
       </ul>
     </section>
   );
