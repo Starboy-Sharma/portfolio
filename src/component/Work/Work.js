@@ -21,7 +21,7 @@ const Work = () => {
       <div className="project-container">
         <div className="project-image">
           <a
-            href="https://collaborate.proprofs.com/"
+            href="https://pulse.streamlandmedia.com/landing/#!/"
             target="_blank"
             rel="noreferrer"
           >
