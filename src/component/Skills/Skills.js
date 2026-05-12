@@ -2,42 +2,32 @@ import React, { useEffect, useState } from "react";
 import "./Skills.css";
 
 const Skills = () => {
-
-  let [skillText, setSkillText] = useState('✨ My Skills ✨');
-
-  useEffect(() => {
-    
-    var isMobileDevice = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-
-    if (isMobileDevice) { 
-      setSkillText('My Skills');
-    }
-
-  }, [skillText]);
+  let [skillText, setSkillText] = useState("My Skills");
 
   return (
     <section id="skills" className="skills">
-      <h2>{skillText}</h2>
+      <div className="skills-container">
+        <h2>{skillText}</h2>
 
-      <ul className="skills-list">
-        <li className="md-chip md-chip-hover"> Node JS </li>
-        <li className="md-chip md-chip-hover"> Express </li>
-        <li className="md-chip md-chip-hover"> Microservices </li>
-        <li className="md-chip md-chip-hover"> React </li>
-        <li className="md-chip md-chip-hover"> MongoDB </li>
-        <li className="md-chip md-chip-hover"> API </li>
-        <li className="md-chip md-chip-hover"> Postgres SQL </li>
-        <li className="md-chip md-chip-hover"> Socket.IO </li>
-        <li className="md-chip md-chip-hover"> Javascript </li>
-        <li className="md-chip md-chip-hover"> Seequelize </li>
-        <li className="md-chip md-chip-hover"> Mongoose </li>
-        <li className="md-chip md-chip-hover"> Git </li>
-        <li className="md-chip md-chip-hover"> jQuery </li>
-        <li className="md-chip md-chip-hover"> Grunt </li>
-        <li className="md-chip md-chip-hover"> Microfrontend </li>
-        <li className="md-chip md-chip-hover"> Design System </li>
-      </ul>
+        <ul className="skills-list">
+          <li className="md-chip"> Node JS </li>
+          <li className="md-chip"> Express </li>
+          <li className="md-chip"> Microservices </li>
+          <li className="md-chip"> React </li>
+          <li className="md-chip"> MongoDB </li>
+          <li className="md-chip"> API </li>
+          <li className="md-chip"> Postgres SQL </li>
+          <li className="md-chip"> Socket.IO </li>
+          <li className="md-chip"> Javascript </li>
+          <li className="md-chip"> Sequelize </li>
+          <li className="md-chip"> Mongoose </li>
+          <li className="md-chip"> Git </li>
+          <li className="md-chip"> jQuery </li>
+          <li className="md-chip"> Grunt </li>
+          <li className="md-chip"> Microfrontend </li>
+          <li className="md-chip"> Design System </li>
+        </ul>
+      </div>
     </section>
   );
 };

@@ -1,110 +1,67 @@
-main {
-  background-color: #1e1e1e;
-  color: #aaaaab;
-  /* padding: 2rem 1rem; */
+#about {
   display: flex;
-  width: 70%;
-  min-width: 1100px;
-  margin: 0 auto;
-  height: 90vh;
   align-items: center;
+  gap: var(--space-xxl);
+  min-height: 80vh;
+  padding: var(--space-section) var(--space-xl);
 }
 
 .img-container {
-  flex: 40%;
-  padding-right: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .img-container img {
-  width: 450px;
-  /* height: 300px; */
-  margin: 0px auto;
-  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: var(--rounded-lg);
+  /* filter: sepia(0.2); */
 }
 
 .about-me {
-  flex: 60%;
-
-  position: relative;
-  left: -50px;
+  flex: 1.2;
 }
 
 .about-me h3 {
   font-size: 3rem;
-  color: #fff;
-  font-weight: 400;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-}
-
-.about-me-text-container {
-  min-width: 230px;
+  margin-bottom: var(--space-lg);
+  color: var(--ink);
 }
 
 .about-me p {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 10px;
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: var(--body);
+  margin-bottom: var(--space-md);
+  line-height: 1.6;
 }
 
-.about-me .button {
-  display: none !important;
-  background: #ffc760; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffc760,
-    #feb32a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffc760,
-    #feb32a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  text-decoration: none;
-  display: inline-block;
-  color: #1e1e1e;
-  border-radius: 20px;
-  padding: 10px 20px;
-  font-weight: 600;
-  margin-top: 8px;
-  transition: 0.5s ease-in-out;
+.about-me b {
+  color: var(--primary);
+  font-weight: 500;
 }
 
-.about-me .button:hover {
-  background-position: left;
-  background: #feb32a;
+.about-me a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-/* Responsive */
-@media (max-width: 1100px) {
-  main {
-    height: auto;
-    display: block;
-    width: 100%;
-    min-width: 100%;
-  }
-
-  .about-me {
-    width: 88%;
-    text-align: justify;
-    margin: 0 auto;
-
-    position: unset;
-  }
-
-  .img-container img {
-    width: 350px;
-  }
-
+.about-me a:hover {
+  color: var(--primary-active);
 }
 
-@media (min-width: 992px) {
-  .about-me {
-    position: unset;
+@media (max-width: 1024px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+    padding-top: var(--space-xl);
   }
-
-  .scroller {
-    overflow-x: hidden;
+  
+  .img-container {
+    margin-bottom: var(--space-xl);
   }
 }

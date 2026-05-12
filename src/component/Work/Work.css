@@ -1,113 +1,135 @@
 .work {
-  padding-top: 2rem;
-  color: #feb32a;
-  background-color: #1e1e1e;
-  padding: 2rem;
+  background-color: var(--canvas);
+  padding: var(--space-section) var(--space-xl);
 }
 
-.work h2 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 8px;
-  color: #fff;
-  margin-left: 1rem;
+.work-header {
+  margin-bottom: var(--space-xxl);
+  text-align: center;
 }
 
 .work h4 {
-  color: #ffc760;
-  font-size: 22px;
-  margin-left: 1rem;
-}
-
-.project-container {
-  /* width: 100%; */
-  width: 70%;
-  border: 1.5px solid #fff;
-  padding: 10px 20px;
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 0px auto;
-  margin-bottom: 15px;
-  border-radius: 7px;
-}
-
-.project-image {
-  flex: 30%;
-  display: flex;
-  justify-content: center;
-  margin-right: 15px;
-}
-
-.project-description {
-  flex: 70%;
-}
-
-.project-description h3 {
-  font-size: 2rem;
-  color: #ffc760;
+  font-family: var(--font-sans);
+  color: var(--primary);
+  font-size: 14px;
   font-weight: 600;
-  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-xs);
 }
 
-.project-description p {
-  font-size: 21px;
+.work h2 {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  color: var(--ink);
+  margin-bottom: 0;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: var(--space-xl);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: var(--surface-card);
+  border-radius: var(--rounded-lg);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  border: 1px solid var(--hairline);
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--rounded-md);
+  margin-bottom: var(--space-lg);
+  border: 1px solid var(--hairline-soft);
+}
+
+.project-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  color: var(--ink);
+  margin-bottom: var(--space-sm);
+}
+
+.project-card p {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--body);
   line-height: 1.6;
-  margin-bottom: 10px;
-  color: #aaaaab;
+  margin-bottom: var(--space-lg);
+  flex-grow: 1;
 }
 
-.project-container ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 1rem;
+.project-links {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: auto;
+}
+
+.project-links a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .more-work {
-  width: 100%;
-  padding: 10px 20px;
+  margin-top: var(--space-xxl);
+  padding: var(--space-xl);
+  background-color: var(--surface-soft);
+  border-radius: var(--rounded-lg);
+  text-align: center;
 }
 
 .more-work h3 {
-  font-size: 1.6rem;
-  color: #ffffff;
-  font-weight: 600;
-  margin-bottom: 8px;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
 }
 
-.more-work a {
-  margin-right: 0.5rem;
+.more-work-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
 }
 
-/* Responsive */
+.more-work-links a {
+  padding: 8px 16px;
+  background-color: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded-pill);
+  font-size: 14px;
+  color: var(--ink);
+  transition: all 0.2s ease;
+}
+
+.more-work-links a:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
 @media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .work h2 {
-    margin-left: 1.3rem;
-  }
-
-  .work {
-    padding: 2rem 1rem;
-  }
-
-  .project-container {
-    display: block;
-    padding: 0px;
-    width:inherit;
-  }
-
-  .project-image {
-    margin-bottom: 8px;
-    display: none;
-  }
-
-  .project-description {
-    text-align: justify;
-    /* margin-left: 15px; */
-    padding: 0px 10px;
-  }
-
-  .project-description p {
-    font-size: 16px;
-    letter-spacing: 0.3px;
+    font-size: 2.5rem;
   }
 }
