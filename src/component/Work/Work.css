@@ -1,6 +1,7 @@
 .work {
   background-color: var(--canvas);
   padding: var(--space-section) var(--space-xl);
+  color: var(--ink);
 }
 
 .work-header {
@@ -11,95 +12,144 @@
 .work h4 {
   font-family: var(--font-sans);
   color: var(--primary);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: var(--space-xs);
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-sm);
 }
 
 .work h2 {
   font-family: var(--font-serif);
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: var(--ink);
   margin-bottom: 0;
+  letter-spacing: -0.02em;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   gap: var(--space-xl);
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .project-card {
-  background-color: var(--surface-card);
-  border-radius: var(--rounded-lg);
+  position: relative;
+  background: var(--surface-dark);
+  border: 1px solid var(--surface-dark-elevated);
+  border-radius: var(--rounded-xl);
   padding: var(--space-xl);
   display: flex;
   flex-direction: column;
-  transition: all 0.3s ease;
-  border: 1px solid var(--hairline);
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(204, 120, 92, 0.1),
+    transparent 40%
+  );
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.project-card:hover::before {
+  opacity: 1;
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-8px);
   border-color: var(--primary);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
 }
 
 .project-card-image {
+  position: relative;
   width: 100%;
-  height: 200px;
+  height: 220px;
   background-size: cover;
   background-position: center;
-  border-radius: var(--rounded-md);
-  margin-bottom: var(--space-lg);
-  border: 1px solid var(--hairline-soft);
+  border-radius: var(--rounded-lg);
+  margin-bottom: var(--space-xl);
+  border: 1px solid var(--surface-dark-soft);
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 1;
+}
+
+.project-card:hover .project-card-image {
+  transform: scale(1.02);
 }
 
 .project-card h3 {
   font-family: var(--font-serif);
-  font-size: 1.8rem;
-  color: var(--ink);
+  font-size: 2rem;
+  color: var(--on-dark);
   margin-bottom: var(--space-sm);
+  z-index: 1;
 }
 
 .project-card p {
   font-family: var(--font-sans);
   font-size: 1rem;
-  color: var(--body);
+  color: var(--on-dark-soft);
   line-height: 1.6;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
   flex-grow: 1;
+  z-index: 1;
 }
 
 .project-links {
   display: flex;
-  gap: var(--space-md);
+  gap: var(--space-lg);
   margin-top: auto;
+  z-index: 1;
 }
 
 .project-links a {
+  font-family: var(--font-sans);
   font-size: 14px;
   font-weight: 500;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  color: var(--on-dark);
+  text-decoration: none;
+  padding: 8px 16px;
+  background: var(--surface-dark-elevated);
+  border: 1px solid var(--surface-dark-soft);
+  border-radius: var(--rounded-md);
+  transition: all 0.2s ease;
+}
+
+.project-links a:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
 }
 
 .more-work {
   margin-top: var(--space-xxl);
-  padding: var(--space-xl);
-  background-color: var(--surface-soft);
-  border-radius: var(--rounded-lg);
+  padding: var(--space-xxl) var(--space-xl);
+  background: var(--surface-soft);
+  border: 1px solid var(--hairline-soft);
+  border-radius: var(--rounded-xl);
   text-align: center;
 }
 
 .more-work h3 {
   font-family: var(--font-serif);
-  font-size: 2rem;
-  margin-bottom: var(--space-md);
+  font-size: 2.2rem;
+  margin-bottom: var(--space-lg);
+  color: var(--ink);
 }
 
 .more-work-links {
@@ -110,18 +160,19 @@
 }
 
 .more-work-links a {
-  padding: 8px 16px;
-  background-color: var(--canvas);
+  padding: 10px 20px;
+  background: white;
   border: 1px solid var(--hairline);
   border-radius: var(--rounded-pill);
   font-size: 14px;
-  color: var(--ink);
+  color: var(--muted);
   transition: all 0.2s ease;
 }
 
 .more-work-links a:hover {
   border-color: var(--primary);
   color: var(--primary);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -130,6 +181,6 @@
   }
   
   .work h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 }
