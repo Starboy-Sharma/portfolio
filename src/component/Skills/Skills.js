@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Skills.css";
 
 const Skills = () => {
-  let [skillText, setSkillText] = useState("My Skills");
 
   return (
     <section id="skills" className="skills">
       <div className="skills-container">
-        <h2>{skillText}</h2>
+        <h2>My Skills</h2>
 
         <ul className="skills-list">
           <li className="md-chip"> Node JS </li>
