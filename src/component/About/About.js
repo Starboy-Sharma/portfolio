@@ -12,7 +12,7 @@ const About = () => {
         <h3>About Me</h3>
         <div className="about-me-text-container">
           <p>
-            Hello, 👋 My name is Pankaj Sharma. I am a Software Developer based in
+            Hello, 👋 My name is Pankaj Sharma. I am a Lead Software Engineer with over 8 years of experience based in
             Delhi, India. I am currently working at{" "}
             <a href="https://www.emids.com/" rel="noreferrer" target="_blank">
               Emids
